@@ -1645,8 +1645,8 @@ $studentAvatars = [
                                     <span class="fw-medium"><?= htmlspecialchars($student["namamhsw"], ENT_QUOTES, "UTF-8") ?></span>
                                   </div>
                                 </td>
-                                <td><span class="badge <?= $gradeClass ?>"><?= htmlspecialchars(number_format($score, 2), ENT_QUOTES, "UTF-8") ?></span></td>
-                                <td><span class="badge <?= $gradeClass ?>"><?= htmlspecialchars($student["nilaihuruf"] ?? "-", ENT_QUOTES, "UTF-8") ?></span></td>
+                                <td><span class="badge <?= $gradeClass ?> text-white"><?= htmlspecialchars(number_format($score, 2), ENT_QUOTES, "UTF-8") ?></span></td>
+                                <td><span class="badge <?= $gradeClass ?> text-white"><?= htmlspecialchars($student["nilaihuruf"] ?? "-", ENT_QUOTES, "UTF-8") ?></span></td>
                                 <td><?= htmlspecialchars($student["predikat"] ?? "-", ENT_QUOTES, "UTF-8") ?></td>
                                 <td><?= htmlspecialchars($student["created_date"] ?? "-", ENT_QUOTES, "UTF-8") ?></td>
                                 <td><?= htmlspecialchars($student["modified_date"] ?? "-", ENT_QUOTES, "UTF-8") ?></td>
